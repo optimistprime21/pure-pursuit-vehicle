@@ -19,8 +19,7 @@ The vehicle can follow a predefined set of waypoints using Pure Pursuit logic. T
 * Open the Simulink model and run bicycle_model.slx
 * To visualize the results, run the plotting script run_model_for_ld5.m
 
-![Waypoints Path](images/path_for_ld5.png)
-
+<img src="images/path_for_ld5.png" alt="Waypoints_Path" width="500"/>
 
 ## Output Visualization
 The 'changing_ld.m' allows path plots for different Ld values:
@@ -28,7 +27,8 @@ The 'changing_ld.m' allows path plots for different Ld values:
 * Ld = 1 → More reactive, may cause oscillations
 * Ld = 5 → Balanced tracking (default)
 * Ld = 10 → Smoother path but larger turning radius
-* 
+  
 <img src="images/path_changing_ld.png" alt="Waypoints_Path2" width="500"/>
+
 ## Compatibility
 Developed for MATLAB R2021a
